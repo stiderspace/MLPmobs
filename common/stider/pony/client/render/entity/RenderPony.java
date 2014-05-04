@@ -12,16 +12,14 @@ import cpw.mods.fml.relauncher.SideOnly;
 @SideOnly(Side.CLIENT)
 public class RenderPony extends RenderLiving
 {
-    private static final ResourceLocation PonyTextures = new ResourceLocation(Textures.MODEL_SHEET_LOCATION + "pony.png");
-
-    public RenderPony(ModelPony par1ModelBase, float par2)
+    public RenderPony(ModelPony modelPony, float par2)
     {
-        super(par1ModelBase, par2);
+        super(modelPony, par2);
     }
 
     protected ResourceLocation getPonyTextures(EntityPony par1EntityPony)
     {
-        return PonyTextures;
+        return Textures.MODEL_PONY;
     }
 
     /**
