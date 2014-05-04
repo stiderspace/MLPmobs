@@ -1,11 +1,9 @@
 package stider.pony;
 
 import net.minecraft.creativetab.CreativeTabs;
-import stider.pony.block.ModBlocks;
 import stider.pony.core.proxy.CommonProxy;
 import stider.pony.creativetab.CreativeTabPONY;
 import stider.pony.entity.ModEntity;
-import stider.pony.item.ModItems;
 import stider.pony.lib.Reference;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
@@ -30,10 +28,7 @@ public class pony {
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
-    	
     	ModEntity.init();
-
-   	
     }
 
     @EventHandler

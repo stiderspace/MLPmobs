@@ -1,4 +1,4 @@
-package stider.pony.util;
+package stider.pony.core.helper;
 
 import java.util.Random;
 
